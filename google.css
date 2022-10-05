@@ -90,7 +90,7 @@ input[type="button"]:hover {
     
 }
 nav{
-    transform: translateX(1250px);
+    transform: translateX(1750px);
     font-family: arial;
     font-size: 13px;
     justify-content: space-between;
