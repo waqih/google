@@ -1,0 +1,276 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:#fff;
+    overflow-y: hidden;
+    overflow-x: hidden;    
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-45%, -160%);
+}
+.google{
+    position: relative;
+    width:275px;
+    top: 25px;
+    
+}
+
+.seachbar{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    transform: translate(-20%,50%);
+}
+input[type ="text" ]{
+    position :absolute;
+    top: 85%;
+    width: 160%;
+    height: 28%;
+    border: 1px solid #d5d4d4;
+    left: -140px;
+    border-radius: 50px;
+    padding: 0 30px 0 40px ;
+    outline: none;
+   
+    font-size: 16px;
+}
+.searchicon {
+    position: absolute;
+    z-index: 1;
+    font-size: 21px;
+    top: 160px;
+    left: -130px;
+    color: #777;
+    width: 22px;
+
+}
+.mic{
+    position: absolute;
+    width: 25px;
+
+    left: 390px;
+    top: 160px;
+
+    
+}
+.sbutton{
+    position: relative;
+    top: 130px;
+    text-align: center;
+
+}
+
+input[type="button"]{
+
+    background: #f6f6f6;
+    border: none;
+    padding: 8px 20px;
+    margin: 10px;
+    color:  #4e4d4d;
+    border-radius: 5px;
+    outline: none;
+}
+input[type="button"]:hover {
+    background: #ede8e8;
+    color: #000;
+    box-shadow: 0 0 2px #000;
+}
+.app{
+    color: #555; 
+    box-shadow: 0 0 2px #000;
+    outline: none;
+    width: 18px;
+    height: 15px;
+    margin: 10px;
+    top: -6px;
+   
+    
+}
+nav{
+    transform: translateX(1750px);
+    font-family: arial;
+    font-size: 13px;
+    justify-content: space-between;
+    
+    
+
+
+}
+.avtar{
+    width: 35px;
+    border-radius: 50;
+    margin: 10px 20px 0 0;
+}
+.navtext:hover { 
+    text-decoration: underline;
+}
+.navtext{
+    color: #444;
+    text-decoration: none;
+    top: -10px;
+    position: relative;
+    margin: 10px ;
+}
+/*
+.lang{
+   margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #111;
+  
+    
+}
+.lang a {
+    margin-left: 5px;
+    color: #1a0dab;
+}
+.lang a :hover{
+    text-decoration: underline;-->*/
+.offer{
+    color: rgb(0, 0, 9);
+    
+}
+
+.offer span:hover{
+    text-decoration: underline;
+}
+
+.pak {
+    font-size: 16px;
+    color: #70757a;
+    margin-left: 26px;
+ 
+}
+
+.below {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -10px;
+}
+
+.below ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.right ul {
+    display: flex;
+    gap: 30px;
+    margin-right: 20px;
+}
+    
+    .left ul {
+        gap: 30px;
+    }
+    
+    .left li {
+        display: flex;
+       
+    }
+    
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        left: 0px;
+    }
+
+footer {
+    font-size: 15px;
+    width: 100%;
+    color: #70757a;
+    margin-top: auto;
+    background-color: #edeef0;
+    cursor: pointer;
+}
+
+footer li:hover {
+    text-decoration: underline;
+}
+/* @media screen and (max-width:600px) {
+    body{
+        max-width: 1024px;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+    footer{
+        width: 133%;
+    }
+    .sbutton{
+        display: flex;
+        margin: 0;
+        
+    }
+
+
+    
+}
+    
+ 
+
+/* responsive website */
+/* 
+@media screen and (max-width:600px) {
+    .searchbar {
+        height: 45px;
+        border: none;
+        width: 300px;
+        font-size: 16px;
+        outline: none;
+    }
+   .searchbartext{
+        margin: 0 auto;
+        width: 405px;
+        border-radius: 30px;
+        border: 1px solid #dcdcdc;
+    }
+    footer {
+        background: none;
+    }
+    .below {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+    }
+    nav {
+        column-gap: 5px;
+    }
+    .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main {
+        width: 200px;
+        height: 70px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .searchbar {
+        height: 45px;
+        border: none;
+        width: 200px;
+        font-size: 16px;
+        outline: none;
+    }
+    .searchbartext {
+        margin: 0 auto;
+        width: 305px;
+        border-radius: 30px;
+        border: 1px solid #dcdcdc;
+    }
+    .main {
+        width: 150px;
+        height: 50px;
+    }
+} */ 
