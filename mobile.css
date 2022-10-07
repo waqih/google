@@ -1,0 +1,222 @@
+@media only screen and (max-width: 1700px) {
+    .navbar {
+
+        margin-left: -22px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .navbar {
+
+        margin-left: -55px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .navbar {
+
+        margin-left: -52px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    header {
+
+        transform: translate(85%);
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .navbar {
+
+        margin-left: -62px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .navbar {
+
+        margin-left: -80px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .navbar {
+
+        margin-left: -90px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .navbar {
+
+        margin-left: -100px;
+    }
+}
+
+@media only screen and (max-width:650px) {
+
+    .searchbar input {
+        left: -105px;
+    }
+
+    .google {
+        position: relative;
+        width: 257px;
+        top: 27px;
+    }
+
+    .mic {
+        position: absolute;
+        width: 25px;
+        left: 419px;
+        top: 145px;
+        top: 149px;
+    }
+
+    .searchicon {
+        position: absolute;
+        z-index: 1;
+        font-size: 21px;
+        top: 153px;
+        left: -110px;
+        color: #777;
+        width: 22px;
+    }
+
+    .navbar {
+
+        margin-left: -110px;
+    }
+
+}
+
+@media only screen and (max-width:600px) {
+
+    .searchbar input {
+        left: -105px;
+        width: 130%;
+    }
+}
+
+@media only screen and (max-width:625px) {
+    header {
+        margin-left: -120px;
+    }
+
+    .google {
+
+
+        top: 68px;
+    }
+
+    .searchbar input {
+
+        width: 126%;
+
+
+    }
+
+    .mic {
+        left: 321px;
+        top: 198px;
+    }
+
+    .searchicon {
+        top: 133px;
+        left: -76px;
+    }
+
+    .but {
+        /* display: flex; */
+    }
+
+    .google {
+        position: relative;
+        width: 225px;
+        top: 27px;
+    }
+
+    .searchbar input {
+        left: -79px;
+        width: 109%;
+        height: 24%;
+    }
+
+    .mic {
+        left: 296px;
+        top: 134px;
+    }
+
+}
+
+@media only screen and (max-width:550px) {
+
+    .below {
+        display: flex;
+        margin-left: -10px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .google {
+        position: relative;
+        width: 208px;
+        top: 27px;
+        left: 32px;
+    }
+
+    .searchbar input {
+        left: -30px;
+        width: 94%;
+    }
+
+    .mic {
+        left: 299px;
+        top: 127px;
+    }
+
+    .searchicon {
+        top: 129px;
+        left: -29px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    header {
+        margin-left: -216px;
+    }
+
+    .google {
+        position: relative;
+        width: 188px;
+        top: 24px;
+        left: 61px;
+    }
+
+    .searchbar input {
+        left: 31px;
+        width: 60%;
+    }
+
+    .mic {
+        left: 256px;
+        top: 121px;
+    }
+
+    .searchicon {
+        top: 123px;
+        left: 32px;
+    }
+
+    .sbutton {
+        position: relative;
+        top: 105px;
+        text-align: center;
+        left: 12px;
+    }
+
+    footer {
+        width: 107%;
+    }
+}

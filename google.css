@@ -2,19 +2,26 @@ body{
     margin: 0;
     padding: 0;
     background:#fff;
-    overflow-y: hidden;
-    overflow-x: hidden;    
+   overflow-y:auto;
+    overflow-x: hidden;
+}
+.container{
+    height: 100%;
 }
 .main{
+    display: flex;
+    margin-top: 12px;
+    flex-direction: column;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-45%, -160%);
+    transform: translate(-50%, -150%);
 }
 .google{
     position: relative;
     width:275px;
     top: 25px;
+    
     
 }
 
@@ -41,7 +48,7 @@ input[type ="text" ]{
     position: absolute;
     z-index: 1;
     font-size: 21px;
-    top: 160px;
+    top: 150px;
     left: -130px;
     color: #777;
     width: 22px;
@@ -52,7 +59,7 @@ input[type ="text" ]{
     width: 25px;
 
     left: 390px;
-    top: 160px;
+    top: 150px;
 
     
 }
@@ -89,16 +96,22 @@ input[type="button"]:hover {
    
     
 }
+.but{
+    display: flex;
+}
 nav{
-    transform: translateX(1750px);
+     /* transform: translateX(1750px);   */
     font-family: arial;
-    font-size: 13px;
+   
+     font-size: 13px;
     justify-content: space-between;
-    
+   
+    margin-right: 0%; 
     
 
 
 }
+
 .avtar{
     width: 35px;
     border-radius: 50;
@@ -191,86 +204,11 @@ footer {
 
 footer li:hover {
     text-decoration: underline;
+
 }
-/* @media screen and (max-width:600px) {
-    body{
-        max-width: 1024px;
-        overflow-y: hidden;
-        overflow-x: hidden;
-        margin: 0;
-        padding: 0;
-    }
-    footer{
-        width: 133%;
-    }
-    .sbutton{
-        display: flex;
-        margin: 0;
-        
-    }
-
-
+header{
     
+    font-family: arial;
+    float: right;
+    transform: translate(88%);
 }
-    
- 
-
-/* responsive website */
-/* 
-@media screen and (max-width:600px) {
-    .searchbar {
-        height: 45px;
-        border: none;
-        width: 300px;
-        font-size: 16px;
-        outline: none;
-    }
-   .searchbartext{
-        margin: 0 auto;
-        width: 405px;
-        border-radius: 30px;
-        border: 1px solid #dcdcdc;
-    }
-    footer {
-        background: none;
-    }
-    .below {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0;
-        padding: 0;
-        justify-content: center;
-    }
-    nav {
-        column-gap: 5px;
-    }
-    .main {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .main {
-        width: 200px;
-        height: 70px;
-    }
-}
-
-@media screen and (max-width:400px) {
-    .searchbar {
-        height: 45px;
-        border: none;
-        width: 200px;
-        font-size: 16px;
-        outline: none;
-    }
-    .searchbartext {
-        margin: 0 auto;
-        width: 305px;
-        border-radius: 30px;
-        border: 1px solid #dcdcdc;
-    }
-    .main {
-        width: 150px;
-        height: 50px;
-    }
-} */ 
